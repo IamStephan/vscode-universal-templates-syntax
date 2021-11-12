@@ -1,0 +1,41 @@
+{
+  "name": "vscode-universal-templates-syntax",
+  "displayName": "VS Code Universal Templates syntax",
+  "description": "",
+  "publisher": "",
+  "author": "Stephan Burger <stephanburger54@gmail.com>",
+  "version": "0.0.1",
+  "keywords": [
+    "ut",
+    "Universal Templates"
+  ],
+  "engines": {
+    "vscode": "^1.30.0"
+  },
+  "categories": [
+    "Programming Languages",
+    "Other"
+  ],
+  "contributes": {
+    "grammars": [
+      {
+        "scopeName": "ut.html.injection",
+        "path": "./syntaxes/.tmLanguage.json",
+        "injectTo": [
+          "text.html"
+        ],
+        "embeddedLanguages": {
+          "source.js": "js",
+          "source.css": "css",
+          "source.css.postcss": "postcss",
+          "source.css.scss": "scss",
+          "source.css.less": "less",
+          "source.stylus": "stylus",
+          "source.sass": "sass",
+          "source.ts": "typescript",
+          "source.coffee": "coffeescript"
+        }
+      }
+    ]
+  }
+}
