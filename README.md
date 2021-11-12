@@ -1,12 +1,12 @@
 # VS Code Universal Templates Syntax
 
-> This extension is meant for internal template development and not intented for public usage.
+> This extension is meant for internal template development and not intended for public usage.
 
 ## Features
 
-Working with novel systems can sometimes be hard on developer productivity and effeciency. This project aims to boost DX with internal templates for BS-Production. Starting with this extenstion developers can benefit from VS Code's syntax highlighting and extension ecosystem to develop custom templates. With proper sytax highlighting and intellisense developers produce better quality code, create less buggy implementations and can iterate at _super_ speeds.
+Working with novel systems can sometimes be hard on developer productivity and efficiency. This project aims to boost DX with internal templates for BS-Production. Starting with this extension developers can benefit from VS Code's syntax highlighting and extension ecosystem to develop custom templates. With proper syntax highlighting and IntelliSense developers produce better quality code, create fewer buggy implementations and can iterate at _super_ speeds.
 
-Currently syntax hightlighting is supported for the following languages:
+Currently, syntax highlighting is supported for the following languages:
 
 - Scripts
   - Javascript (Supported by default)
@@ -49,7 +49,7 @@ Currently syntax hightlighting is supported for the following languages:
 
 ## Local development of this extension
 
-- Open the folder containing this extension in vscode
+- Open the folder containing this extension in VS Code
 - Press `F5` to open a new window with your extension loaded.
 - Create a new file with a file name suffix matching your language.
 - Verify that syntax highlighting works.
@@ -69,7 +69,7 @@ Currently syntax hightlighting is supported for the following languages:
 
 ### 0.0.1
 
-Initial proof of concept. This release focusses heavily on only adding syntax highlighting for supported languages of the UT-bundler. languages added:
+Initial proof of concept. This release focuses heavily on only adding syntax highlighting for supported languages of the UT-bundler. languages added:
 
 - Scripts
   - Javascript (Supported by default)
